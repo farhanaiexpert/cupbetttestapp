@@ -267,6 +267,15 @@ app.post('/api/event', (req, res) => {
   }
 });
 
+// server.js
+// ========== HEALTH CHECK ROUTE ==========
+app.get('/', (req, res) => {
+  res.json({ 
+    status: 'ok', 
+    message: 'Backend is running!',
+    timestamp: new Date().toISOString()
+  });
+});
 // ---------------------------
 // 6. Startup (no auto‑deploy, no HTTPS)
 // ---------------------------
