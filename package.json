@@ -1,0 +1,17 @@
+{
+  "name": "usdt-balance-checker",
+  "version": "1.0.0",
+  "description": "Проверка баланса USDT (TRC-20) на блокчейне TRON",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "solc": "^0.8.35",
+    "tronweb": "^6.1.1"
+  }
+}
