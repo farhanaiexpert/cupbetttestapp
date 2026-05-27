@@ -1,0 +1,35 @@
+# Environment variables (contains secrets: private keys, API keys, bot tokens)
+.env
+
+# Node.js dependencies
+node_modules/
+
+# Runtime data files created by server.js and bot.js
+events.json
+state.json
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Optional: if you ever compile contracts or generate build artifacts
+build/
+artifacts/
+cache/
+
+# Misc
+.env.example   # (if you create one, it's OK to keep in git – but this line ignores it; remove if you want to commit .env.example)
